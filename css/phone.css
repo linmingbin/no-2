@@ -1,0 +1,370 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+img {border:0;	vertical-align:middle; } 
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.tab{
+    height: 0.7rem;
+    position: relative;
+    border-bottom: 0.01rem solid #e3e3e3;
+}
+.tab ul{
+    display: block;
+    width: 2.8rem; 
+    height: 0.7rem;
+    margin: 0 auto;
+}
+.tab ul li{
+    width: 1.4rem;
+    font:0.3rem "微软雅黑";
+    float: left;
+    text-align: center;
+    line-height: 0.7rem;
+    position: relative;
+    
+}
+.tab ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.tab ul li b{
+    width: 0.32rem;
+    height: 0.06rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.16rem;
+    bottom: 0;
+    background: url(../images/jing.png) no-repeat 0 0;
+    background-size: 100%;
+    overflow: hidden;
+}
+.tab i{
+    width: 0.41rem;
+    height: 0.43rem;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.21rem;
+    right: 0.3rem;
+    background: url(../images/jing.png) no-repeat 0 -0.09rem;
+    background-size: 100%;
+
+}
+
+.w-slider{
+    height: 4.06rem;
+}
+.slider{
+    height: 4.06rem;
+}
+.slider-main-img {
+    height: 4.06rem;
+    float: left;
+}
+.slider-main-img img {
+    width: 100%;
+}
+/*swipe css  */
+.swiper-container-horizontal>.swiper-pagination-bullets{
+    width: 1.5rem;
+    right: 0.2rem;
+}
+.swiper-pagination-bullet{
+    background: #fff;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background:url(../images/dian.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100% 100% 0 0;
+}
+/* 星火计划 */
+.xinghuo{
+    width: 100%;
+    height: 2rem;
+}
+.xinghuo ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.xinghuo ul li{
+    flex: 1;
+    text-align: center;
+    
+}
+.xinghuo ul li a{
+    display: inline-block;
+    font: 0.26rem "微软雅黑";
+    width: 100%;
+    height: 100%;
+}
+.xinghuo ul li span{
+    display: block;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin: 0.35rem auto;
+    background-size: 100% 100%;
+    border-radius: 100%;
+}
+.xinghuo-01{
+    background: url(../images/xingh01.jpg) no-repeat;
+}
+.xinghuo-02{
+    background: url(../images/xingh02.jpg) no-repeat;
+}
+.xinghuo-03{
+    background: url(../images/xingh03.jpg) no-repeat;
+}
+.xinghuo-04{
+    background: url(../images/xingh04.jpg) no-repeat;
+}
+.bgc{
+    width: 100%;
+    height: 0.11rem;
+    background-color: #f8f8f8;
+}
+/* 人气佳作头部 */
+.works-top{
+    height: 0.95rem;
+    margin: 0.38rem 0.2rem 0 0.2rem;
+}
+.works-top-left{
+    width: 1.56rem;
+    height: 0.38rem;
+    float: left;
+    position: relative;
+    
+}
+.works-top-left font{
+    font: 0.28rem/0.38rem "微软雅黑";
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.works-top-left span{
+    display: inline-block;
+    width: 0.42rem;
+    height: 0.38rem;
+    background: url(../images/jing.png) no-repeat 0 -0.58rem;
+    background-size: 100%;
+}
+.works-top-right{
+    float: right;
+    font: 0.26rem "微软雅黑";
+    color: #949494;
+    position: relative;
+    width: 1rem;
+    height: 0.38rem;
+}
+.works-top-right font{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.works-top-right span{
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 100%;
+    background: url(../images/jin01.png) no-repeat; 
+    background-size: 100%;
+    position: absolute;
+    top:0;
+    right: 0;   
+}
+/* 人气佳作主体 */
+.works-subject{
+    width: 100%;
+    height: 6.44rem;
+    overflow:hidden;
+}
+.works-subject ul li{
+    width: 3.5rem;
+    height: 3.22rem;
+    float: left;
+}
+.works-subject li img{
+    width: 3.5rem;
+    height: 1.97rem;
+}
+.border-r{
+    margin-left: 0.2rem;
+}
+
+.works-subject li p{
+    font: 0.27rem "微软雅黑";
+    color: #000;
+    padding:0.2rem 0 0.1rem 0.1rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.works-subject li font{
+    font: 0.22rem "微软雅黑";
+    color: #949494;
+    padding-left: 0.1rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+/* 小编推荐 */
+.praise span{
+    background: url(../images/jing.png) no-repeat 0 -1.02rem;
+    background-size: 100%;
+}
+.recommend{
+    width: 100%;
+    height: 8.42rem;
+}
+.recommend li{
+    width: 2.23rem;
+    height: 4.2rem;
+    float: left;
+}
+.recommend li img{
+    width: 2.23rem;
+    height: 3.03rem;
+}
+.li-border{
+    margin: 0 0.25rem;
+}
+.recommend li p{
+    font: 0.27rem "微软雅黑";
+    color: #000;
+    padding:0.2rem 0 0.1rem 0.1rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;  
+}
+.recommend li font{
+    font: 0.22rem "微软雅黑";
+    color: #949494;
+    padding-left: 0.1rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.wuxia .wuxia-01{
+    background: url(../images/wux01.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.wuxia .wuxia-02{
+    background: url(../images/wux02.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.wuxia .wuxia-03{
+    background: url(../images/wux03.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.wuxia .wuxia-04{
+    background: url(../images/wux04.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.banner{
+    width: 100%;
+    height: 1.42rem;
+}
+.banner img{
+    width: 100%;
+    height: 1.42rem;
+}
+/* 热血战斗 */
+.battle span{
+    background: url(../images/jing.png) no-repeat 0 -1.36rem;
+    background-size: 100%;
+}
+.battle-subject{
+    width: 100%;
+    height: 4.45rem;
+}
+.battle-subject img{
+    width: 100%;
+    height: 3.2rem;
+}
+.battle-subject p{
+    font: 0.27rem "微软雅黑";
+    color: #000;
+    padding:0.2rem 0 0.1rem 0.1rem;
+}
+.battle-subject font{
+    font: 0.22rem "微软雅黑";
+    color: #949494;
+    padding-left: 0.1rem;
+}
+.rexue .recommend{
+    width: 100%;
+    height: 4.2rem;
+}
+/* 底部 */
+.bot{
+    width: 100%;
+    height: 2.09rem;
+    background-color: #f8f8f8;
+}
+.bot-a{
+    width: 4.6rem;
+    height: 0.33rem;
+    padding: 0.4rem 0 0.35rem 0;
+    margin: 0 auto;
+    color: #555555;
+    font: 0.26rem "微软雅黑";
+}
+.bot-a ul li{
+    float: left;
+}
+.bot-a ul li i{
+    margin: 0 0.3rem;
+}
+.bot-b{
+    width: 3rem;
+    height: 0.26rem;
+    margin: 0 auto;
+    font: 0.26rem "微软雅黑";
+    color: #555555;
+    /* background: yellow; */
+}
+.bot-b i{
+    color: #999999;
+}
+.bot-c{
+    width: 2.4rem;
+    height: 0.4rem;
+    margin: 0.3rem auto;
+    font: 0.24rem "微软雅黑";
+    color: #999999;
+}
